@@ -1,0 +1,106 @@
+@media screen and (max-width: 480px) {
+  .text h1,
+  .text p {
+    width: 90%;
+    text-align: center;
+    color: rgb(220, 231, 241);
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .logo {
+    padding-right: 25px;
+    margin-top: -8px;
+  }
+
+  nav ul {
+    display: none;
+    position: absolute;
+    left: -100%;
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    top: 87px;
+    background-color: palevioletred;
+    display: block;
+  }
+
+  #checkbtn i {
+    display: inline;
+  }
+
+  nav ul li {
+    margin-bottom: -45px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  #checkbox:checked ~ ul {
+    margin: auto;
+    left: 5%;
+    transition: 1s;
+    transition-timing-function: ease-out;
+  }
+}
+
+@media (max-width: 808px) {
+  .cards {
+    gap: 18em;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 662px) {
+  .cards {
+    column-gap: 22em;
+    flex-wrap: wrap;
+  }
+  .cards1 {
+    width: 80%;
+    margin-top: -12rem;
+  }
+  #img {
+    margin-top: -13rem;
+  }
+  #cards {
+    margin-top: 18rem;
+  }
+}
+/* here complte home page */
+/* here work blogs section */
+
+@media screen and (max-width: 900px) {
+  .contact-info {
+    width: 100%;
+  }
+  .form {
+    display: block;
+  }
+  .contact-p p,
+  .form p {
+    width: 100%;
+    display: block;
+  }
+  .form h2 {
+    padding-bottom: 2rem;
+    display: block;
+    margin: auto;
+  }
+
+  input {
+    margin-left: 0%;
+    width: 48%;
+    display: inline-block;
+  }
+  textarea {
+    margin-left: 0%;
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 550px) {
+  input {
+    margin-left: 0%;
+    width: 100%;
+    display: block;
+  }
+}

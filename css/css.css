@@ -1,0 +1,670 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+.animation {
+  width: 100vw;
+  height: 4px;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+
+  position: absolute;
+}
+@keyframes animate {
+  0% {
+    width: 0%;
+    background-color: red;
+  }
+  70% {
+    width: 70%;
+    background-color: red;
+  }
+  85% {
+    width: 85%;
+    background-color: red;
+  }
+  100% {
+    width: 100%;
+    background-color: red;
+  }
+}
+/* here home page start */
+/* here work on background */
+.contanier {
+  background-image: url("../pic/banner-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 130vh;
+} /* here finished work on background */
+/* here start  work on navigation bar*/
+nav {
+  width: 90%;
+  background-color: rgb(241 241 241);
+  border-radius: 40px;
+  height: 9rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  padding-top: 2rem;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+#checkbox {
+  display: none;
+}
+#checkbtn i {
+  display: none;
+  font-size: 4rem;
+  line-height: 9rem;
+  margin-left: 4rem;
+}
+
+nav ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 12px;
+}
+
+nav ul li {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  line-height: 90px;
+  flex-direction: column;
+
+  /* here work on logo */
+}
+
+nav ul li a {
+  color: rgb(42, 37, 37);
+}
+
+.logo {
+  height: 10rem;
+  margin-left: -7.5rem;
+}
+
+.logo .text-logo {
+  font-size: 2rem;
+  line-height: 100px;
+  font-family: Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+/* here work on color change on logo words */
+.logo img {
+  width: 3rem;
+}
+
+/* here work finished on logo */
+/* here finished work on navigatiob bar */
+/* here work on heading and paragraph which show home page */
+.text h1,
+.text p {
+  width: 39%;
+  text-align: center;
+  color: rgb(220, 231, 241);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 9rem;
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+}
+.text h1 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-top: 13.3rem;
+}
+
+.text p {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 3.2rem;
+}
+
+.text button {
+  color: wheat;
+  font-size: 2.5rem;
+  background-color: rgb(228, 103, 145);
+  border-radius: 3rem;
+  width: 20rem;
+  height: 4.2rem;
+  border: none;
+  margin-top: 3rem;
+}
+/* here home page end */
+/* here start about us section */
+/* here work on about section */
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: -16rem;
+}
+.cards img {
+  width: 20rem;
+}
+
+.card1 {
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: rgb(237, 235, 239);
+  justify-content: space-around;
+  padding: 10px;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px;
+}
+
+#about .card1 .icon {
+  background-color: rgb(87, 16, 149);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 30rem;
+  align-self: center;
+  margin-top: 44px;
+}
+
+#about .card1 h2 {
+  padding-top: 3.3rem;
+  font-size: 2.3rem;
+  text-transform: capitalize;
+}
+
+#about .card1 p {
+  font-size: 1.6rem;
+  line-height: 3.3rem;
+  padding: 2.4rem 3rem 2rem;
+}
+#about .card1 img {
+  width: 6rem;
+  height: 6rem;
+  margin-top: 1.5rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+  width: 90vw;
+}
+.cards1 {
+  width: 50%;
+}
+.cards1 h2 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.cards1 p {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.margin {
+  width: 90%;
+  margin: auto;
+}
+/* end abous us section */
+/* * here middle card end of of abouts us section*/
+/* here complete awork-process section */
+#work-process .bg2 {
+  background-image: url("../pic/work-process-bg.png");
+  background-size: 100% 100%;
+}
+#work-process .text {
+  text-align: center;
+  padding-bottom: 333rem;
+}
+#work-process .text p {
+  color: white;
+  font-size: 20px;
+}
+
+#work-process .text h2 {
+  font-size: 35px;
+  color: white;
+  font-weight: lighter;
+}
+
+/* here end work of text work process */
+/* here start work on cards */
+
+.card-workprocess {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  margin-top: 0rem;
+  padding-bottom: 5rem;
+}
+.texts {
+  color: white;
+}
+.texts p {
+  font-size: 2rem;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 3rem;
+}
+.texts h2 {
+  line-height: 8rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.card-workprocess .rocket {
+  background-color: rgba(255, 255, 255, 0.847);
+  margin-top: 10rem;
+  text-align: center;
+  width: 18rem;
+  border-radius: 20px;
+  box-shadow: 12px 12px rgb(137, 114, 158);
+}
+.card-workprocess .rocket img {
+  width: 4.5rem;
+  color: blueviolet;
+  margin-top: 2.3rem;
+}
+.card-workprocess .rocket h2 {
+  font-size: 2.4rem;
+  font-weight: lighter;
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.card-workprocess .rocket p {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  margin-top: -3.1rem;
+  padding: 2.4rem;
+} /* here end work process */
+/* here end work process */
+/* here start testiminails */
+#testiminails {
+  background-color: hsl(0, 0%, 90%);
+  padding-bottom: 10rem;
+}
+
+#testiminails .text {
+  width: 100%;
+  height: 50%;
+}
+#testiminails .text p {
+  font-size: 18px;
+  color: black;
+}
+#testiminails .text h2 {
+  font-size: 33px;
+  font-weight: lighter;
+  color: black;
+}
+.boxes .card {
+  margin-top: -100px;
+  text-align: center;
+  width: 35rem;
+  padding: 1.2rem;
+  background-color: rgb(245, 242, 242);
+  margin: 9rem 0.6rem 0rem;
+}
+.boxes .card p {
+  font-size: 18px;
+  color: rgba(62, 59, 59, 0.885);
+}
+.boxes .card h2 {
+  margin-left: 26px;
+  margin-top: 35px;
+  font-size: 2.2rem;
+
+  font-weight: lighter;
+  color: rgba(21, 18, 18, 0.885);
+}
+.boxes .card h3 {
+  margin-top: -21px;
+  font-size: 17px;
+  font-weight: lighter;
+  color: rgb(219, 91, 91);
+  margin-left: 133px;
+}
+.boxes .card img {
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.boxes .circle img {
+  margin-left: 27px;
+}
+#testiminails .boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+} /* here end what do they say */
+/* here work start  on pricing-tables */
+#pricing-tables {
+  background-color: rgb(229, 225, 216);
+}
+
+.pricing {
+  text-align: center;
+  width: 30rem;
+  padding-bottom: 25px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 23px;
+  margin-top: 5rem;
+}
+.textes1 {
+  padding: 8em 0%;
+}
+.textes1 h2 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 10rem;
+}
+.textes1 p {
+  font-size: 2.3rem;
+  font-weight: lighter;
+  margin-top: 3.2rem;
+  width: 50%;
+  margin: auto;
+}
+.pricing h2 {
+  padding-top: 2.3rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.9rem;
+  font-weight: lighter;
+}
+.pricing p {
+  background-color: blue;
+  width: 86%;
+  border-radius: 20px;
+  font-size: 28px;
+  color: rgb(28, 21, 21);
+  margin-bottom: 26px;
+  margin-left: 18px;
+}
+.pricing h4 {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.pricing button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 13em;
+  height: 3em;
+}
+
+.pricing h4 {
+  margin-top: 13px;
+  margin-bottom: 8px;
+}
+.boxes-pricing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 3rem;
+  padding-bottom: 9rem;
+}
+/* here end pricing table */
+
+/* here complete  card and i used base-line  used css inline */
+/* here work on bg img */
+.bg3 {
+  margin-top: 23px;
+  background-image: url("../pic/home-bg.PNG");
+  background-repeat: repeat-y;
+  background-size: cover;
+  padding: 20rem 0rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg3-color {
+  background-color: rgba(137, 43, 226, 0.669);
+  width: 100vw;
+  height: 100vh;
+  margin-top: -20rem;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 100px;
+  height: 30rem;
+  column-gap: 5rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 37rem;
+}
+
+.project-info h2 {
+  font-size: 4.5rem;
+  color: white;
+}
+
+.project-info p {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+.project-info {
+  line-height: 9rem;
+}
+/* here end project info */
+
+#blogs-entire {
+  padding: 10rem 0px;
+}
+.entire h2 {
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: lighter;
+}
+.entire p {
+  line-height: 3rem;
+  margin: auto;
+  color: #777;
+  font-size: 1.6rem;
+  width: 41%;
+  margin-top: 1rem;
+  text-align: center;
+}
+.blogs-card img {
+  width: 30.4rem;
+  height: 20rem;
+  border-radius: 3rem;
+}
+.blogs-card button {
+  width: 90px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: blue;
+}
+.blogs-card p {
+  font-size: 1.7rem;
+  width: 30.4rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #777;
+}
+.blogs-card h2 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.blogs-card {
+  width: 30.4rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blogs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 5rem;
+}
+
+/* here end blogs  */
+/* here start contact us form  */
+#contact-us {
+  background-color: rgba(212, 207, 207, 0.44);
+  padding: 4rem 0rem;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 9rem;
+}
+.contact p {
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  width: 30%;
+  color: #777;
+}
+.contact-info h2 {
+  width: 20rem;
+}
+.contact-info {
+  width: 32%;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2.6rem;
+}
+textarea {
+  width: 100%;
+  height: 15rem;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  resize: none;
+  border-radius: 30px;
+  border: none;
+  padding: 4.4rem;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem;
+}
+input {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  width: 40%;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  padding-left: 44px;
+}
+.sendmessage button {
+  display: block;
+  margin: auto;
+  height: 5rem;
+  width: 20rem;
+
+  border-radius: 30px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+}
+/* here work end contact us */
+
+footer {
+  height: 200px;
+  background-color: rgba(137, 43, 226, 0.831);
+}
+footer .copyright {
+  border: 0.01px solid rgb(152, 128, 162);
+  width: 80%;
+  margin: auto;
+
+  margin-top: 30px;
+}
+footer p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}
+/* social media linked */
+.icons img {
+  width: 40px;
+  border-radius: 30px;
+}
+.icons {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+/* animation */
+li a:hover {
+  text-decoration: underline;
+  color: red;
+
+  transition: 1s;
+}
+body img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+  cursor: pointer;
+}
+body button:hover {
+  background-color: palevioletred;
+  transition: 1s;
+  cursor: pointer;
+}
+.rocket:hover {
+  transform: translatey(-4rem);
+  transition: 1s;
+  cursor: pointer;
+}
+@media screen and (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* here end project */
